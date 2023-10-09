@@ -1,0 +1,40 @@
+.mainbody {
+    padding: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10rem;
+}
+
+.empcard {
+    
+    width: 26rem;
+    
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: start;
+}
+
+.empimg {
+    height: 26rem;
+    width: 26rem;
+}
+
+button {
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 0.8rem;
+}
+
+.empname{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.empdesignation{
+    margin-bottom: 0.8rem;
+}
